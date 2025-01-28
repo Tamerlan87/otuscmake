@@ -6,6 +6,11 @@ on:
       - master
       - feature/github_actions
 
+permissions:
+  actions: write
+  contents: write
+  issues: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
